@@ -1,0 +1,51 @@
+{
+  "tickets": 11750,
+  "surveyed": 5196,
+  "csat_all": 3.327,
+  "csat_bad_lot": 2.718,
+  "csat_other": 3.488,
+  "bad_lot_ticket_share": 0.218,
+  "money": [
+    {
+      "sku": "VA-EB-PL2",
+      "flagged_lots": 12,
+      "flagged_orders": 1979,
+      "tickets": 2563,
+      "replacements": 958,
+      "excess_replacements": 797.0,
+      "excess_tickets": 1148.0,
+      "replacement_cost_inr": 1450260,
+      "contact_cost_inr": 333044
+    }
+  ],
+  "refund_and_replacement_tickets": 6,
+  "refund_and_replacement_inr": 13797,
+  "junk_messages": 13,
+  "legacy_negative_handle_before_fix": 0,
+  "naive_bottom10": [
+    "A3041",
+    "A3042",
+    "A3040",
+    "A3044",
+    "A3043",
+    "A3039",
+    "A3004",
+    "A3006",
+    "A3007",
+    "A3005"
+  ],
+  "naive_bottom10_tier2": 6,
+  "adj_bottom10": [
+    "A3004",
+    "A3007",
+    "A3029",
+    "A3028",
+    "A3030",
+    "A3038",
+    "A3034",
+    "A3020",
+    "A3017",
+    "A3022"
+  ],
+  "retrain_candidates": []
+}

@@ -1,0 +1,45 @@
+agent_id,name,site,team,shift,tier,surveyed,resid,resid_sd,csat_raw,surveyed_all,bad_lot_share,csat_adj,ci95,tickets,handle_h_median,breach_rate,transfers_avg,rankable,naive_rank,adj_rank,naive_bottom10,adj_bottom10,retrain_candidate
+A3041,Jaspreet Desai,Bengaluru,Escalations & Warranty,Morning,2,40,-0.096,0.78,2.416,89,0.551,3.392,0.242,200,121.517,0.1,0.225,False,1.0,,True,False,False
+A3042,Sneha Sethi,Bengaluru,Escalations & Warranty,Morning,2,38,-0.027,1.06,2.44,91,0.582,3.462,0.337,201,75.367,0.095,0.184,False,2.0,,True,False,False
+A3040,Tarun Fernandes,Indore,Escalations & Warranty,Morning,2,39,0.098,1.009,2.552,96,0.594,3.586,0.317,203,75.417,0.059,0.197,False,3.0,,True,False,False
+A3044,Pranav Khanna,Bengaluru,Escalations & Warranty,Day,2,50,0.009,0.871,2.571,105,0.524,3.498,0.241,251,97.308,0.08,0.147,False,4.0,,True,False,False
+A3043,Kabir Varghese,Bengaluru,Escalations & Warranty,Morning,2,44,-0.043,0.908,2.602,88,0.5,3.446,0.268,200,121.908,0.1,0.18,False,5.0,,True,False,False
+A3039,Sameer Ghosh,Bengaluru,Escalations & Warranty,Day,2,70,0.007,1.019,2.826,115,0.391,3.495,0.239,249,121.367,0.088,0.173,False,6.0,,True,False,False
+A3004,Siddharth Kapoor,Bengaluru,Chat Frontline,Day,1,76,-0.164,0.93,2.984,129,0.411,3.325,0.209,305,0.433,0.085,0.075,True,7.0,1.0,True,True,False
+A3006,Kavya Pandey,Indore,Chat Frontline,Morning,1,85,-0.045,1.021,3.007,142,0.401,3.444,0.217,281,0.45,0.089,0.103,True,8.0,14.0,True,False,False
+A3007,Siddharth Trivedi,Indore,Chat Frontline,Morning,1,75,-0.09,0.944,3.008,120,0.375,3.398,0.214,278,0.45,0.058,0.09,True,9.0,6.0,True,True,False
+A3005,Zaid Khanna,Bengaluru,Chat Frontline,Day,1,68,-0.026,0.909,3.042,118,0.424,3.462,0.216,299,0.417,0.084,0.07,True,10.0,18.0,True,False,False
+A3029,Kavya Pandey,Bengaluru,Logistics,Morning,1,141,-0.063,0.954,3.126,159,0.113,3.426,0.158,340,24.425,0.079,0.079,True,11.0,10.0,False,True,False
+A3028,Vivaan Pandey,Bengaluru,Logistics,Morning,1,138,-0.106,0.947,3.143,154,0.104,3.382,0.158,348,24.383,0.106,0.098,True,12.0,4.0,False,True,False
+A3030,Geeta Iyer,Bengaluru,Logistics,Morning,1,127,-0.065,0.893,3.18,150,0.153,3.423,0.155,337,24.433,0.134,0.104,True,13.0,9.0,False,True,False
+A3038,Varun Reddy,Bengaluru,Returns Desk,Day,1,108,-0.107,0.933,3.207,121,0.107,3.381,0.176,284,24.45,0.063,0.25,True,14.0,3.0,False,True,False
+A3037,Mohammed Desai,Indore,Returns Desk,Morning,1,209,0.003,1.021,3.28,243,0.14,3.492,0.138,563,24.55,0.101,0.117,True,15.0,22.0,False,False,False
+A3036,Divya Tiwari,Indore,Returns Desk,Day,1,87,0.083,1.011,3.292,106,0.179,3.572,0.212,257,24.425,0.105,0.21,True,16.0,30.0,False,False,False
+A3031,Zoya Menon,Bengaluru,Logistics,Day,1,184,0.071,0.981,3.307,212,0.132,3.559,0.142,435,24.425,0.062,0.083,True,17.0,28.0,False,False,False
+A3027,Harpreet Goyal,Bengaluru,Logistics,Day,1,181,0.126,0.956,3.31,210,0.138,3.614,0.139,447,24.467,0.072,0.089,True,18.0,33.0,False,False,False
+A3034,Meera Pereira,Bengaluru,Billing,Morning,1,147,-0.072,0.945,3.423,163,0.098,3.416,0.153,361,0.35,0.105,0.136,True,19.0,8.0,False,True,False
+A3032,Kunal Jain,Bengaluru,Billing,Day,1,146,-0.053,0.99,3.432,169,0.136,3.435,0.161,382,0.367,0.094,0.089,True,20.0,12.0,False,False,False
+A3035,Nisha Rao,Bengaluru,Billing,Morning,1,176,-0.011,1.014,3.449,196,0.102,3.477,0.15,413,0.367,0.114,0.133,True,21.0,20.0,False,False,False
+A3020,Riya Pillai,Bengaluru,Email Frontline,Morning,1,83,-0.094,1.008,3.495,101,0.178,3.395,0.217,250,0.383,0.092,0.108,True,22.0,5.0,False,True,False
+A3017,Aadhya Rao,Indore,Email Frontline,Night,1,77,-0.074,0.845,3.505,93,0.172,3.415,0.189,208,0.383,0.111,0.111,True,23.0,7.0,False,True,False
+A3026,Suresh Pereira,Indore,Voice Frontline,Morning,1,40,-0.052,1.099,3.524,42,0.048,3.437,0.341,104,0.4,0.048,0.0,True,24.0,13.0,False,False,False
+A3022,Manpreet Yadav,Bengaluru,Email Frontline,Morning,1,87,-0.118,0.879,3.536,97,0.103,3.37,0.185,231,0.383,0.104,0.087,True,25.0,2.0,False,True,False
+A3008,Isha George,Bengaluru,Chat Frontline,Day,1,89,-0.04,0.814,3.542,107,0.168,3.449,0.169,228,0.383,0.079,0.066,True,26.0,16.0,False,False,False
+A3024,Suresh Sethi,Bengaluru,Voice Frontline,Day,1,173,-0.057,0.941,3.554,204,0.152,3.431,0.14,479,0.35,0.05,0.033,True,27.0,11.0,False,False,False
+A3016,Om Khanna,Indore,Email Frontline,Night,1,87,0.048,0.94,3.575,106,0.179,3.536,0.198,219,0.35,0.151,0.123,True,28.0,27.0,False,False,False
+A3002,Megha Sheikh,Indore,Chat Frontline,Night,1,76,-0.022,0.943,3.58,88,0.136,3.466,0.212,194,0.375,0.144,0.057,True,29.0,19.0,False,False,False
+A3011,Divya Jadhav,Bengaluru,Chat Frontline,Day,1,85,-0.042,0.937,3.635,104,0.183,3.446,0.199,240,0.367,0.104,0.058,True,30.0,15.0,False,False,False
+A3021,Geeta Sen,Indore,Email Frontline,Morning,1,92,0.153,0.907,3.637,113,0.186,3.642,0.185,255,0.4,0.137,0.11,True,31.0,35.0,False,False,False
+A3009,Vihaan Menon,Bengaluru,Chat Frontline,Morning,1,65,0.082,0.967,3.643,84,0.226,3.571,0.235,211,0.383,0.071,0.095,True,32.0,29.0,False,False,False
+A3001,Reyansh Bhatt,Indore,Chat Frontline,Night,1,76,0.016,0.938,3.645,93,0.183,3.505,0.211,208,0.333,0.106,0.077,True,33.0,23.0,False,False,False
+A3033,Thomas Reddy,Bengaluru,Billing,Day,1,129,0.154,0.9,3.649,151,0.146,3.643,0.155,338,0.35,0.065,0.115,True,34.0,36.0,False,False,False
+A3023,Meera Patel,Indore,Voice Frontline,Morning,1,38,0.034,1.004,3.651,43,0.116,3.523,0.319,96,0.333,0.0,0.031,False,35.0,,False,False,False
+A3015,Ishaan Dutta,Indore,Chat Frontline,Morning,1,84,-0.007,0.991,3.652,92,0.087,3.481,0.212,200,0.35,0.085,0.055,True,36.0,21.0,False,False,False
+A3019,Sai Joshi,Bengaluru,Email Frontline,Morning,1,105,0.115,0.774,3.664,125,0.16,3.604,0.148,260,0.367,0.104,0.096,True,37.0,32.0,False,False,False
+A3014,Bhavna Joshi,Indore,Chat Frontline,Morning,1,72,-0.038,1.011,3.667,78,0.077,3.45,0.234,190,0.333,0.074,0.037,True,38.0,17.0,False,False,False
+A3010,Aarav Pereira,Indore,Chat Frontline,Day,1,80,0.026,0.936,3.686,102,0.216,3.514,0.205,238,0.317,0.101,0.055,True,39.0,24.0,False,False,False
+A3025,Ananya Das,Indore,Voice Frontline,Morning,1,44,0.028,1.007,3.686,51,0.137,3.517,0.298,118,0.4,0.025,0.025,True,40.0,25.0,False,False,False
+A3003,Deepak Saxena,Indore,Chat Frontline,Night,1,65,0.11,0.951,3.693,75,0.133,3.598,0.231,190,0.383,0.163,0.074,True,41.0,31.0,False,False,False
+A3013,Sukhwinder Rao,Indore,Chat Frontline,Day,1,84,0.141,0.896,3.708,96,0.125,3.629,0.192,207,0.367,0.082,0.072,True,42.0,34.0,False,False,False
+A3012,Steven Ghosh,Indore,Chat Frontline,Morning,1,70,0.033,1.024,3.735,83,0.157,3.521,0.24,205,0.383,0.073,0.044,True,43.0,26.0,False,False,False
+A3018,Kunal Pillai,Bengaluru,Email Frontline,Morning,1,75,0.159,0.956,3.783,92,0.185,3.648,0.216,247,0.367,0.093,0.089,True,44.0,37.0,False,False,False
