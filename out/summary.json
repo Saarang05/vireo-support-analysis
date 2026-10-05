@@ -21,7 +21,7 @@
   "refund_and_replacement_tickets": 6,
   "refund_and_replacement_inr": 13797,
   "junk_messages": 13,
-  "legacy_negative_handle_before_fix": 0,
+  "negative_handle_times_before_utc_fix": 2309,
   "naive_bottom10": [
     "A3041",
     "A3042",

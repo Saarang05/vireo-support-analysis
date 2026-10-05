@@ -115,8 +115,9 @@ def main():
     a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)
     t, o, p, ag = load(a.data)
+    neg_before = int(((t.resolved_at - t.first_response_at).dt.total_seconds() < 0).sum())
     t = clean(t)
-    t = t[~t.junk | t.csat_score.isna() | True]  # junk IVR rows kept (phone-system issue), flagged only
+    # junk IVR rows are kept (phone-system issue); they only affect message text, which is not used
     t = attach_lots(t, o)
     lots = flag_lots(t, o)
     bad = set(map(tuple, lots[lots.defect_flag][["product_sku", "lot_code"]].values))
@@ -146,7 +147,7 @@ def main():
         csat_bad_lot=round(t[t.bad_lot].csat_score.mean(), 3), csat_other=round(t[~t.bad_lot].csat_score.mean(), 3),
         bad_lot_ticket_share=round(t.bad_lot.mean(), 3), money=money,
         refund_and_replacement_tickets=len(both), refund_and_replacement_inr=int(both.refund_amount_inr.sum()),
-        junk_messages=int(t.junk.sum()), legacy_negative_handle_before_fix=int(0),
+        junk_messages=int(t.junk.sum()), negative_handle_times_before_utc_fix=neg_before,
         naive_bottom10=tab[tab.naive_bottom10].agent_id.tolist(),
         naive_bottom10_tier2=int(tab[tab.naive_bottom10].tier.eq(2).sum()),
         adj_bottom10=tab[tab.adj_bottom10].agent_id.tolist(), retrain_candidates=tab[tab.retrain_candidate].agent_id.tolist(),

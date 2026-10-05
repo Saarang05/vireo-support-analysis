@@ -11,7 +11,7 @@ To: Priya Raman, Head of CX  |  From: Saarang P  |  Re: CSAT dashboard
 
 **The bottom ten, honestly**
 - The raw bottom ten has six Escalations & Warranty agents. Policy says they are not compared with Tier 1, and they take the worst cases.
-- The other four are the chat hardware rota (Kapoor, Pandey, Trivedi, Khanna), as Neha warned. On tickets not from the bad lots their CSAT matches their colleagues. On bad-lot tickets they handled 355 against 241 for other chat agents and scored 2.1.
+- The other four are the chat hardware rota (Kapoor, Pandey, Trivedi, Khanna), as Neha warned. On tickets not from the bad lots their CSAT matches their colleagues. On hardware-category chat tickets from the bad lots they handled 355 against 241 for other chat agents, and scored 2.1.
 - With bad-lot tickets removed, the 38 Tier-1 agents sit between 3.3 and 3.65, with margins of about plus or minus 0.2. No one is a statistically clear retraining case.
 - Top five for the Diwali bonus: do not use raw CSAT either, because queue mix decides it. The table in the dashboard shows adjusted scores.
 
